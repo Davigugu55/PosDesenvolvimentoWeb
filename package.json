@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run-dev": "cd src && npx ts-node index.ts",
+    "dev": "cd src && npx ts-node index.ts",
     "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "ts-node": "^10.9.2",
-    "skeleton": "git+https://github.com/ifloor/PosDesenvolvimentoWebSkeleton.git"
+    "axios": "^1.9.0",
+    "repomix": "^0.3.3",
+    "skeleton": "git+https://github.com/ifloor/PosDesenvolvimentoWebSkeleton.git",
+    "ts-node": "^10.9.2"
   }
 }
